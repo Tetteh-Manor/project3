@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+ul {
+    overflow: hidden; 
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+li {
+    float: left; 
+    margin-right: 2rem;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: #575757;
+}
+  
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Page-specific Styles */
+/* Home Page */
+.home section {
+    background-color: #e3f2fd;
+    border: 2px solid #2196F3;
+}
+
+/* Resume Page */
+.resume section {
+    background-color: #fff3e0;
+    border-left: 4px solid #ff9800;
+}
+
+.resume h2 {
+    color: #2e7d32;
+}
+
+.resume img {
+    float: left; 
+    width: 25%;
+    margin: 10px;
+}
+
+/* Hobbies Page */
+.hobbies img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.hobbies section {
+    background-color: #fce4ec;
+    position: relative;
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+    width: 150px;
+}
