@@ -61,39 +61,38 @@ p {
     border: 2px solid #2196F3;
 }
 
-/* Default Media query for small screens */
-@media (min-width: 240px) {
-    body {
-        margin: 0;
-        padding: 10px;
-        font-size: 16px;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        padding: 10px 0;
-    }
-
-    .header {
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
-
-    .grid {
-        display: block;
-    }
-
-    .sidebar {
-        display: none;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+/* Base mobile styles */
+body {
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
 }
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+.header {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.grid {
+    display: block;
+}
+
+.sidebar {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* Media query for larger mobile screens */
 @media (min-width: 480px) {
