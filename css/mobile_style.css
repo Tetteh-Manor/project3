@@ -30,7 +30,6 @@ img {
     height: auto;
 }
 
-
 /* Media query for larger mobile screens */
 @media (min-width: 480px) {
     body {
